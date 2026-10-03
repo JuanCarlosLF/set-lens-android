@@ -1,4 +1,4 @@
-package com.jclopez.setlens.ui.theme
+package com.jclopez.setlens.presentation.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

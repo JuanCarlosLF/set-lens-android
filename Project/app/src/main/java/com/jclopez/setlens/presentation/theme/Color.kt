@@ -1,4 +1,4 @@
-package com.jclopez.setlens.ui.theme
+package com.jclopez.setlens.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
