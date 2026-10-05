@@ -5,7 +5,7 @@ import com.jclopez.setlens.domain.model.RecordedSet
 import com.jclopez.setlens.domain.repository.RecordedSetRepository
 import java.util.UUID
 
-class MockRecordedSetRepository : RecordedSetRepository {
+class MockRecordedSetRepositoryImpl : RecordedSetRepository {
 
     override fun getRecordedSets(): List<RecordedSet> = recordedSets
 
