@@ -35,8 +35,8 @@ fun SavedSeriesHeader(
             selected = false,
             onClick = onFilterClick,
             colors = FilterChipDefaults.filterChipColors().copy(
-                labelColor = MaterialTheme.colorScheme.onSurfaceVariant,
-                containerColor = MaterialTheme.colorScheme.surfaceContainer,
+                labelColor = MaterialTheme.colorScheme.onPrimary,
+                containerColor = MaterialTheme.colorScheme.primary,
             ),
             label = { Text(stringResource(R.string.home_filter_label)) },
         )
