@@ -1,0 +1,28 @@
+<resources>
+    <!-- Padding -->
+    <dimen name="padding_xs">8dp</dimen>
+    <dimen name="padding_s">16dp</dimen>
+    <dimen name="padding_m">20dp</dimen>
+    <dimen name="padding_l">24dp</dimen>
+
+    <!-- Spacing -->
+    <dimen name="gap_xs">4dp</dimen>
+    <dimen name="gap_s">8dp</dimen>
+    <dimen name="gap_m">12dp</dimen>
+
+    <!-- Component Size -->
+    <dimen name="border_width_thin">1dp</dimen>
+    <dimen name="home_action_icon_container_size">96dp</dimen>
+    <dimen name="home_action_icon_padding">20dp</dimen>
+    <dimen name="home_action_title_spacing">12dp</dimen>
+    <dimen name="home_mode_toggle_inner_padding">2dp</dimen>
+    <dimen name="home_mode_toggle_button_horizontal_padding">4dp</dimen>
+    <dimen name="home_series_card_content_padding">12dp</dimen>
+    <dimen name="home_series_card_text_spacing">3dp</dimen>
+    <dimen name="home_series_card_badge_horizontal_padding">6dp</dimen>
+    <dimen name="home_series_card_badge_vertical_padding">2dp</dimen>
+    <dimen name="home_series_thumbnail_size">84dp</dimen>
+    <dimen name="home_series_thumbnail_icon_size">32dp</dimen>
+    <dimen name="home_series_thumbnail_badge_horizontal_padding">5dp</dimen>
+    <dimen name="home_series_thumbnail_badge_vertical_padding">2dp</dimen>
+</resources>
