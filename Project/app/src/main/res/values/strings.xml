@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">SetLens</string>
+
+    <!-- Home -->
+    <string name="home_title">Lift Library</string>
+    <string name="home_settings_description">Ajustes</string>
+    <string name="home_record_title">Grabar una serie</string>
+    <string name="home_record_description">Toca para abrir cámara y ajustar encuadre</string>
+    <string name="home_record_mode_label">Grabar</string>
+    <string name="home_import_title">Seleccionar un vídeo</string>
+    <string name="home_import_description">Selecciona un vídeo de tu galería</string>
+    <string name="home_import_mode_label">Importar</string>
+    <string name="home_series_title">Series guardadas %1$s</string>
+    <string name="home_filter_label">Filtros</string>
+    <string name="home_rpe_label">RPE %1$s</string>
+    <string name="home_load_repetitions_format">%1$s kg × %2$s</string>
 </resources>
