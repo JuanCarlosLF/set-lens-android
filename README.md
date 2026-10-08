@@ -13,6 +13,14 @@ The goal is to turn ordinary workout recordings into a practical tool for struct
 
 SetLens is being developed with a product-oriented approach, prioritizing a focused, usable first release before expanding its capabilities.
 
+## Current UI Preview
+
+<p align="center">
+  <img src="Project/screenshots/002-Home-Layout-record-mode.png" alt="SetLens Home screen in recording mode" width="320">
+</p>
+
+<p align="center"><em>Home screen showing recording mode.</em></p>
+
 ## Tech Stack
 
 - **Language:** Kotlin
