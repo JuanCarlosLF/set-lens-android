@@ -8,7 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
-import com.jclopez.setlens.presentation.screen.home.HomeScreen
+import com.jclopez.setlens.presentation.navigation.HomeNavigationHost
 import com.jclopez.setlens.presentation.theme.SetLensTheme
 
 class MainActivity : ComponentActivity() {
@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             SetLensTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    HomeScreen(modifier = Modifier.padding(innerPadding))
+                    HomeNavigationHost(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
