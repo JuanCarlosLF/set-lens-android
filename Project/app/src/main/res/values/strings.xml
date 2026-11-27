@@ -14,4 +14,8 @@
     <string name="home_filter_label">Filtros</string>
     <string name="home_rpe_label">RPE %1$s</string>
     <string name="home_load_repetitions_format">%1$s kg × %2$s</string>
+
+    <!-- Recording -->
+    <string name="back_description">Volver</string>
+    <string name="recording_preview_placeholder">Vista previa de grabación</string>
 </resources>
