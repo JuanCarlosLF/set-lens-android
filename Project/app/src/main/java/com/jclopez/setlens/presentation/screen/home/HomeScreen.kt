@@ -37,6 +37,7 @@ fun HomeScreen(
     modifier: Modifier = Modifier,
     onSettingsClick: () -> Unit = {},
     onCaptureClick: () -> Unit = {},
+    onImportClick: () -> Unit = {},
     onFilterClick: () -> Unit = {},
     onRecordedSetClick: (RecordedSet) -> Unit = {},
     viewModel: HomeViewModel = koinViewModel(),
@@ -49,6 +50,7 @@ fun HomeScreen(
         onModeSelected = viewModel::onModeSelected,
         onSettingsClick = onSettingsClick,
         onCaptureClick = onCaptureClick,
+        onImportClick = onImportClick,
         onFilterClick = onFilterClick,
         onRecordedSetClick = onRecordedSetClick,
     )
@@ -62,6 +64,7 @@ fun HomeScreenContent(
     onModeSelected: (CaptureMode) -> Unit = {},
     onSettingsClick: () -> Unit = {},
     onCaptureClick: () -> Unit = {},
+    onImportClick: () -> Unit = {},
     onFilterClick: () -> Unit = {},
     onRecordedSetClick: (RecordedSet) -> Unit = {},
 ) {
@@ -106,7 +109,13 @@ fun HomeScreenContent(
             item(key = "capture-action") {
                 CaptureActionCard(
                     isRecordingMode = uiState.selectedMode == CaptureMode.RECORD,
-                    onClick = onCaptureClick,
+                    onClick = {
+                        if (uiState.selectedMode == CaptureMode.RECORD) {
+                            onCaptureClick()
+                        } else {
+                            onImportClick()
+                        }
+                    },
                 )
             }
             item(key = "saved-header") {
